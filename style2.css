@@ -1,0 +1,217 @@
+/*my code contain about 216 lines*/
+/*start main Rutez*/
+.container{width: 1170px;margin: auto;}
+.clearfix{clear: both;}
+/*start header code*/
+.header .slider{background: #eee;height: 600px;}
+.header .slider{
+    background-image: url(slider3.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.header .slider .intro{padding-top:200px;text-align: center;color:#494755;}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width:600px;
+    border-top:4px solid #494755;
+    border-bottom:4px solid #494755;
+    padding:5px 0;
+    color:black;
+}
+.header .slider .intro button{
+    background:none;
+    margin-top:30px;
+    font-size: 20px;
+    border:2px solid #494755;
+    font-weight: bold;
+    padding:10px 30px;
+    color:#494755
+}
+.header .navbar{background: #252f31;color:white;overflow: hidden;}
+.header .navbar h2 span{color:#2ecc71}
+.header .navbar h2{overflow: hidden;text-transform: uppercase;color:white}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float:right;
+}
+.header .navbar ul li{padding: 15px;}
+.header .navbar ul li a{color:#fff;text-decoration: none;}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:#30B576;}
+/*end header Rutez*/
+/*start feature */
+.features{overflow: hidden;padding-top: 40px;padding-bottom:50px;}
+.features .feat{width: 33.33333%;height: 150px;}
+.features .feat h2 {text-transform: uppercase;}
+.features .feat p{text-align: justify;padding:0 10 0 0 }
+/*end feature */
+/*start about me*/
+.about-me{background: #f2f2f2;overflow: hidden;}
+.about-me .image{width: 40%;}
+.about-me .image img{width: 100%;}
+.about-me .info{width:60%}
+.about-me .info h2{margin:20px  0px 20px 40px;}
+.about-me .info > p{margin:0 0 10px 40px;}
+.about-me .info p:last-of-type{margin-top:25px;}
+.about-me .info .hobbies{overflow: hidden;margin: 15px 0 0 40px;}
+.about-me .info .hobbies .content h3{color:#555;}
+.about-me .info .hobbies .content {width: 50%;min-height:100px;overflow: hidden;}
+.about-me .info .hobbies .content .icon{width:12%;margin-right: 5%;}
+.about-me .info .hobbies .content .icon img{max-width: 100%;margin:40px 10px 0 0}
+.about-me .info .hobbies .content .text{width: 83%}
+/*end about me */
+/*start my skill*/
+.my-skill{padding-top:30px;padding-bottom: 50px;overflow: hidden;}
+.my-skill .progress{width:50%;float: right;}
+.my-skill .skills{width: 50%;}
+.my-skill .skills h2{margin:20px  0px 20px 40px;}
+.my-skill .skills p{margin:0 0 10px 40px ; }
+.my-skill .skills p:last-of-type{margin-top:25px;} 
+.my-skill .skills button{margin-top:20px;margin-left:40px;}   
+.my-skill .progress .technique{margin-left:50px;}
+.my-skill .progress .technique h3{color:#555;text-transform: uppercase;}
+.my-skill .progress .technique div{background:#f2f2f2; height:25px;}
+.my-skill .progress .technique div span{
+ background-color:#2ecc78;
+ width: 80%;
+ height: 25px;
+ display: block;
+ line-height: 25px;
+ text-align: right;
+ color:white;
+ font-weight: bold;
+}
+/*end my skill*/
+/*start Resume*/
+.resume{background-color:#f2f2f2;
+    padding-top:50px;
+    padding-bottom: 70px;
+    text-align: center;}
+.resume h2{text-transform: uppercase;font-weight: bold;}
+.resume p{padding: 0 40px;}
+.resume button{margin-top: 15px;}
+/*end Resume*/
+/*start my education*/
+.my-education{padding-bottom: 30px;overflow: hidden;}
+.my-education .main{width: 45%;margin-right: 5px;height: 600px;}
+.my-education .main h2{margin:20px  0px 20px 40px;}
+.my-education .main p{margin:0 0 10px 40px}
+
+.my-education .main p:last-of-type{margin-top:25px;}
+.my-education .exp{width:50%;float: right;}
+.my-education .exp h3{margin-top: 80px;margin-bottom: 10px;}
+.my-education .exp span{display: block;margin-bottom: 10px;}
+.my-education .exp span:first :only-of-type{color:#999}
+.my-education .exp span:last-of-type{
+    background: #2ecc78;
+    color:#fff;
+    display: inline-block;
+    padding: 4px 10px;
+}
+.my-education .exp hr{
+    margin:20px 0 ;
+    background-color: #999; 
+    height: 1px;
+    border:0;
+}   
+/*end my education*/
+/*start testimonials*/
+.testimonials{background-color:#f2f2f2;
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials q{font:italic bold 18px/1.8 tahoma ,arial}
+.testimonials h3{color:#666;margin-bottom:30px}
+.testimonials ul{
+ list-style:none;
+ padding-left:0 ;
+ text-align: center;
+ margin-top:30px; 
+}
+.testimonials ul li{
+    width:15px;
+    height: 15px;
+    border:2px solid #2ecc78;
+    display: inline-block;
+    cursor:pointer;
+}
+.testimonials ul li.active{background-color:#2ecc71}
+.testimonials ul li:hover{background-color:#2ecc71}
+/*end testimonials*/
+/*start portfolio*/  
+.portfolio{padding-top:50px; padding-bottom:70px;text-align: center;}
+.portfolio p{margin-bottom:30px;}
+.portfolio .My-work{overflow: hidden;}
+.portfolio .My-work >div{width:33.33333%;margin-bottom:10px; }
+.portfolio .My-work >div img{
+    width:92%;
+    margin: 10px;
+    padding:3px;
+    background-color:#777;
+    border:1px solid #2ecc71;
+    box-shadow: 10px 10px 10px;
+}
+/*end portfolio*/
+/*start contact me*/
+.contact-me{
+    background-color:#252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact-me .info{width: 50%;margin-right: 5%;}
+.contact-me h2{color:#fff;margin-left: 40px;}
+.contact-me p{ color:#6a6e71;margin-left:40px;}
+.contact-me p strong{color:#d1d6da;}
+.contact-me .form{width:45%;}
+.contact-me .form label{display:block;color:#d1d6da;margin: 10px 0;}
+.contact-me .form input[type="text"]{
+    background-color:#485557;
+    color:#fff;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+}
+.contact-me .form textarea{
+    background-color:#485557;
+    color:#fff;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.contact-me .form input[type="submit"]{
+    background-color:#191e22;
+    color:#fff;
+    padding:10px 20px;
+    border:0;
+    margin-top: 10px;
+}
+/*start footer*/
+.footer {
+    background-color:#191e22;
+    color:#6a6e71;
+    padding:20px 0;
+    text-align: center;
+}
+.footer ul{list-style:none;padding-left:0;margin:10px 0 0 ;}
+.footer ul li {display: inline-block;}
+.footer ul li img{width:24px;}
+/*end footer*/
+/*start my framwork*/
+.my-button{
+    background:none;
+    border:3px solid #2ecc78;
+    padding:10px 30px;
+    color:#2ecc78;
+    font-weight: bold;}
+.fl-le{float: left;}
+p{line-height: 1.7;color:#666}
+h2{color:#777} 
+/*end my framwork*/
